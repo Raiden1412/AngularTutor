@@ -5,15 +5,14 @@ import { FormsModule } from '@angular/forms';
 import { AppComponent } from './app.component';
 import {ServerComponent} from './server/server.component';
 import { Hw3Component } from './hw3/hw3.component';
-import { Hw4Component } from './hw4/hw4.component';
+
 
 
 @NgModule({
   declarations: [
     AppComponent,
     ServerComponent,
-    Hw3Component,
-    Hw4Component
+    Hw3Component
   ],
   imports: [
     BrowserModule,
