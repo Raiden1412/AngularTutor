@@ -4,7 +4,6 @@ import { FormsModule } from '@angular/forms';
 
 import { AppComponent } from './app.component';
 import {ServerComponent} from './server/server.component';
-import { Hw3Component } from './hw3/hw3.component';
 import { Hw4Component } from './hw4/hw4.component';
 
 
@@ -12,7 +11,6 @@ import { Hw4Component } from './hw4/hw4.component';
   declarations: [
     AppComponent,
     ServerComponent,
-    Hw3Component,
     Hw4Component
   ],
   imports: [
