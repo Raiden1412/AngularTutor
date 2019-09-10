@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import {current} from 'codelyzer/util/syntaxKind';
 
 @Component({
   selector: 'app-hw4',
@@ -9,6 +10,15 @@ export class Hw4Component {
   ingredients1 = '';
   ingredients2 = '';
   ordered = false;
+  dateMessage: string;
+
+  constructor () {
+    setInterval(() =>
+    {const currentDate = new Date ();
+    this.dateMessage = currentDate.toDateString() + ' ' + currentDate.toLocaleTimeString();
+    } , 1000);
+
+  }
 
   reorder() {
     this.ingredients1 = '';
