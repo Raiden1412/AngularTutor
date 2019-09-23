@@ -13,8 +13,7 @@ export class Hw4Component {
   dateMessage: string;
 
   constructor () {
-    setInterval(() =>
-    {const currentDate = new Date ();
+    setInterval(() => { const currentDate = new Date ();
     this.dateMessage = currentDate.toDateString() + ' ' + currentDate.toLocaleTimeString();
     } , 1000);
 
